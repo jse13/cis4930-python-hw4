@@ -1,0 +1,265 @@
+Version:  1.1
+Status:  200
+Reason:  OK
+Headers:  [('Content-Length', '10262'), ('Accept-Ranges', 'bytes'), ('Server', 'Apache/2.2.3 (CentOS)'), ('Last-Modified', 'Mon, 13 Jun 2016 10:53:16 GMT'), ('Connection', 'close'), ('ETag', '"af0167-2816-53526b2105f00"'), ('Date', 'Tue, 14 Jun 2016 21:20:53 GMT'), ('Content-Type', 'text/html')]
+Value of Date header:  Tue, 14 Jun 2016 21:20:53 GMT
+First 10 bytes of body:  <!DOCTYPE 
+Rest of body:  html>
+<html lang="en">
+<head>
+  <title>CIS4930</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <style>
+
+  .navbar-default {
+    background-color: #782F40;
+    border-color: #E7E7E7;
+  }
+  .navbar-default .navbar-brand {
+    color: #D7C69F;
+  }
+  .navbar-default .navbar-brand:hover,
+  .navbar-default .navbar-brand:focus {
+    color: #D7C69F;
+  }
+  .navbar-default > .container-fluid > div > .navbar-nav > li > a {
+    color:  #D7C69F;
+    font-weight:bold;
+  }
+  .navbar-default > .container-fluid > div > .navbar-nav > li > a:hover,
+  .navbar-default > .container-fluid > div > .navbar-nav > li > a:focus {
+    background-color: #D7C69F;
+    color: #782F40;
+  }
+  .navbar-default > .container-fluid > div >  .navbar-nav > .active > a, 
+  .navbar-default > .container-fluid > div >  .navbar-nav > .active > a:hover, 
+  .navbar-default > .container-fluid > div > .navbar-nav > .active > a:focus {
+    background-color: #D7C69F;
+    color: #782F40;
+  }
+  .navbar-default > .container-fluid > div > .navbar-nav > .open > a, 
+  .navbar-default .navbar-nav > .open > a:hover, 
+  .navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+  }
+
+  </style>
+</head>
+<body style="background-color: #EBE2CF;">
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><span style="font-weight: bold; color: #D7C69F;">CIS4930 Python Programming</span></a>
+    </div>
+    <div>
+      <ul class="nav navbar-nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="cis4930_syllabus_sum2016.pdf">Syllabus</a></li>
+	<li><a href="cis4930_calendar_sp2016.pdf">Calendar</a></li>
+        <li><a href="#lectures">Lectures</a></li>
+        <li><a href="#assignments">Assignments</a></li>
+        <li><a href="#resources">Resources</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container">
+  <div class="contents" style="background-color: white; width: 95%; margin-right: auto; margin-left: auto; padding: 10px;">
+  <div class="row" id = "home">
+    <div class="col-md-12">
+      Welcome to the Summer 2016 offering of CIS4930 Python Programming. Below you will find some basic information about the course. For further information, please consult the syllabus. This website will serve as the primary resource for the class with the exception of grades and announcements, which will be made available through Blackboard. If you have any questions, please email me.<br /> <br />
+
+      <b>Course Details</b><br />
+      Monday, Wednesday, and Friday from 9:30 AM to 10:45 AM in Love 103. <br />
+      <br />
+      <b> Course Instructor </b><br />
+      Caitlin Carnahan <br />
+      Office: Love 205A <br />
+      Office Hours: Mon. and Wed. 2:00 - 4:00<br />
+      Email: carnahan [ at cs dot fsu dot edu ]<br />
+      <br />
+
+      <b>Teaching Assistants</b><br />
+      Ashleigh Davis<br />
+      Office: Love 011 <br />
+      Office Hours: Mon. and Tues. 1:00 - 3:00<br />
+      Email: adavis [ at cs dot fsu dot edu]
+      <br />
+      <br />
+      <b>Course Description</b><br />
+      This course is an intermediate-level course in Python. Students are expected to be comfortable with the programming material that is taught in COP3330. Topics covered will include lectures on the Python language and development environment as well as coverage of some select Python modules that demonstrate the versatility of the Python language.
+
+    </div>
+  </div>
+
+
+  <br />
+  <hr style="border-color: black;">
+  <br />
+
+
+  <div class="row" id="lectures">
+    <div class = "col-md-12">
+      <span style="font-size: 20px;"><b>Lectures</b></span><br />
+      <br />
+     
+      <ul>
+
+	
+
+      <li>Lecture 1: Getting Started with Python (<a href="Lecture1_cis4930.pdf">pdf</a>, <a href="Lecture1_cis4930.pptx">ppt</a>)</li>
+
+
+      
+      <li>Lecture 2: Python Basics (<a href="Lecture2_cis4930.pdf">pdf</a>, <a href="Lecture2_cis4930.pptx">ppt</a>)</li>
+      
+      <li>Lecture 3: Data Structures (<a href="Lecture3_cis4930.pdf">pdf</a>, <a href="Lecture3_cis4930.pptx">ppt</a>)</li>
+      
+      <li>Lecture 4: Files and Exceptions (<a href="Lecture4_cis4930.pdf">pdf</a>, <a href="Lecture4_cis4930.pptx">ppt</a>) [<a href="csv_parser.py">csv_parser.py</a>, <a href="football.csv">football.csv</a>]</li>
+      
+      <li>Lecture 5: Strings (<a href="Lecture5_cis4930.pdf">pdf</a>, <a href="Lecture5_cis4930.pptx">ppt</a>)</li>
+      
+      <li>Lecture 6: Advanced Functions and OOP (<a href="Lecture6_cis4930.pdf">pdf</a>, <a href="Lecture6_cis4930.pptx">ppt</a>) [<a href="accepts_test.py">accepts_test.py</a>, <a href="frac.py">frac.py</a>]</li> 
+      
+      <li>Lecture 7: The Standard Library Part 1 (<a href="Lecture7_cis4930.pdf">pdf</a>, <a href="Lecture7_cis4930.pptx">ppt</a>)</li>
+      
+      <li>Lecture 8: The Standard Library Part 2 (<a href="Lecture8_cis4930.pdf">pdf</a>, <a href="Lecture8_cis4930.pptx">ppt</a>) [<a href="babynames.py">babynames.py</a>, <a href="babynames.tar">sample baby data</a>]</li>
+      
+      <li>Lecture 9: Development Tools (<a href="Lecture9_cis4930.pdf">pdf</a>, <a href="Lecture9_cis4930.pptx">ppt</a>)</li>
+      
+      <li>Lecture 10: Networking (<a href="Lecture10_cis4930.pdf">pdf</a>, <a href="Lecture10_cis4930.pptx">ppt</a>) [<a href="blackjack_server.py">blackjack_server.py</a>, <a href="card.py">card.py</a>]</li>
+      
+      <li>Lecture 11: Networking Part 2 (<a href="Lecture11_cis4930.pdf">pdf</a>, <a href="Lecture11_cis4930.pptx">ppt</a>) [<a href="blackjack_ss_server.py">blackjack_ss_server.py</a>]</li>
+      
+      <li>Lecture 12: Twisted (<a href="Lecture12_cis4930.pdf">pdf</a>, <a href="Lecture12_cis4930.pptx">ppt</a>) [<a href="blocking_more_client.py">blocking_more_client.py</a>, <a href="more_client.py">more_client.py</a>, <a href="more_server.py">more_server.py</a>]</li>
+      
+      <li>Lecture 13: Crawling and Scraping (<a href="Lecture13_cis4930.pdf">pdf</a>, <a href="Lecture13_cis4930.pptx">ppt</a>) [<a href="ticket_scraper.py">ticket_scraper.py</a>]</li>
+      
+      <li>Lecture 14: Web Frameworks (<a href="Lecture14_cis4930.pdf">pdf</a>, <a href="Lecture14_cis4930.pptx">ppt</a>)</li>
+      
+      <li>Lecture 15: Web Servers (<a href="Lecture15_cis4930.pdf">pdf</a>, <a href="Lecture15_cis4930.pptx">ppt</a>)</li>
+      
+      <li>Lecture 16: Serialization and Data Persistence (<a href="Lecture16_cis4930.pdf">pdf</a>, <a href="Lecture16_cis4930.pptx">ppt</a>) [<a href="blackjack_server_db.py">blackjack_server_db.py</a>, <a href="card.py">card.py</a>, <a href="db_interface.py">db_interface.py</a>]</li>
+      
+      <li>Lecture 17: GUI Programming (<a href="Lecture17_cis4930.pdf">pdf</a>, <a href="Lecture17_cis4930.pptx">ppt</a>)</li>
+      <li>Lecture 18: GUI Programming Part 2 (<a href="Lecture18_cis4930.pdf">pdf</a>, <a href="Lecture18_cis4930.pptx">ppt</a>)</li>
+      
+      <li>Lecture 19: Numerical and Scientific Programming (<a href="Lecture19_cis4930.pdf">pdf</a>, <a href="Lecture19_cis4930.pptx">ppt</a>)</li>
+      <li>Lecture 20: Optimizing Python (<a href="Lecture20_cis4930.pdf">pdf</a>, <a href="Lecture20_cis4930.pptx">ppt</a>)</li>
+      <li>Lecture 21: Distributing Python (<a href="Lecture21_cis4930.pdf">pdf</a>, <a href="Lecture21_cis4930.pptx">ppt</a>)</li>
+      <li>Lecture 22: Numerical and Scientific Programming Part 2 (<a href="Lecture22_cis4930.pdf">pdf</a>, <a href="Lecture22_cis4930.pptx">ppt</a>) [<a href="plot_test.py">plot_test.py</a>]</li>
+      
+      </ul>
+    </div>
+  </div>
+
+
+  <br />
+  <hr style="border-color: black;">
+  <br />
+
+
+  <div class="row" id="assignments">
+    <div class = "col-md-12">
+      <span style="font-size: 20px;"><b>Assignments</b></span><br /><br />
+      <ul>
+	
+	<li> Before 5/13: Read and follow the <a href="SettingUp.pdf">Handy Guide to Setting Up a Virtual Machine for Python Programming</a>.</li>
+	
+	<li><a href="hw1_cis4930_sum16.pdf">Assignment 1</a> (due 5/25)</li>
+	
+	<li>Group Project Proposals (due 6/1): Write a one page proposal for your group project. These must be turned in as a hardcopy before class. </li>
+	<li><a href="hw2_cis4930_sum16.pdf">Assignment 2</a> (UPDATE due 6/10)</li>
+	<li><a href="project_cis4930.pdf">Group Project Information</a></li>
+	<!---
+	<li><a href="hw3_cis4930.pdf">Assignment 3</a> (due 2/19)</li>
+	<li><a href="cis4930_midterm_sp16.pdf">Midterm</a> (UPDATE due 3/16)</li>
+	<li><a href="cis4930_hw4.pdf">Assignment 4</a> (due 4/12)</li>
+	
+	
+	<li><a href="project_cis4930.pdf">Semester Project Presentation and Demo Information</a></li>
+	<li><a href="hw5_cis4930.pdf">Assignment 5</a> (due 4/22 -- No Late Submissions Accepted)</li>
+      
+	<li><a href="PythonFinalTopics.pdf">FinalExam Topics</a>. Our final exam is on Friday, April 29 at 12:30 - 2:30 in Love 301.</li>
+        --->
+	</ul>
+      
+    </div>
+  </div>
+
+  <br />
+  <hr style="border-color: black;">
+  <br />
+
+
+  <div class="row" id="resources">
+    <div class = "col-md-12">
+      <span style="font-size: 20px;"><b>Resources</b></span><br />
+      <br />
+      
+      <ul>
+	<li><a href="https://docs.python.org/2/">Python 2.7 Documentation</a></li>
+	<li><a href="https://www.virtualbox.org/">Virtual Box (Recommended)</a></li>
+	<li><a href="https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/7_0">VMWare Player</a></li>
+	<li>A Handy Guide to Setting Up a Virtual Machine for Python Programming (<a href="SettingUp.pdf">pdf</a>)</li>
+	<li><a href="https://www.python.org/dev/peps/pep-0008/">Python Coding Conventions</a></li>
+	<li><a href="http://pylint-messages.wikidot.com/start">PyLint Messages Reference Page</a></li>
+	<li><a href="cis4930_pylint_config">Custom Pylint Config File</a></li>
+	<li><a href="https://youtu.be/EnSu9hHGq5o"><i>Loop Like A Native: while, for, iterators, generators</i>, Ned Batchelder</li>
+	</ul>
+    </div>
+  </div>
+
+
+
+  </div>
+</div>
+
+</body>
+</html>
+
+Trying to read more:  
+********************
+Version:  1.1
+Status:  404
+Reason:  Not Found
+Headers:  [('Date', 'Tue, 14 Jun 2016 21:20:54 GMT'), ('Content-Length', '294'), ('Content-Type', 'text/html; charset=iso-8859-1'), ('Connection', 'close'), ('Server', 'Apache/2.2.3 (CentOS)')]
+Value of Date header:  Tue, 14 Jun 2016 21:20:54 GMT
+First 10 bytes of body:  <!DOCTYPE 
+Rest of body:  HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /~carnahan/cis430/ was not found on this server.</p>
+<hr>
+<address>Apache/2.2.3 (CentOS) Server at www.cs.fsu.edu Port 80</address>
+</body></html>
+
+********************
+Version:  1.1
+Status:  200
+Reason:  OK
+Headers:  [('Content-Length', '10262'), ('Accept-Ranges', 'bytes'), ('Server', 'Apache/2.2.3 (CentOS)'), ('Last-Modified', 'Mon, 13 Jun 2016 10:53:16 GMT'), ('Connection', 'close'), ('ETag', '"af0167-2816-53526b2105f00"'), ('Date', 'Tue, 14 Jun 2016 21:20:54 GMT'), ('Content-Type', 'text/html')]
+Value of Date header:  Tue, 14 Jun 2016 21:20:54 GMT
+First 10 bytes of body:  
+Rest of body:  
+********************
+Version:  1.1
+Status:  200
+Reason:  OK
+Headers:  [('Content-Length', '10219'), ('Accept-Ranges', 'bytes'), ('Server', 'Apache/2.2.3 (CentOS)'), ('Last-Modified', 'Mon, 13 Jun 2016 19:01:47 GMT'), ('Connection', 'close'), ('ETag', '"af808e-27eb-5352d8522bcc0"'), ('Date', 'Tue, 14 Jun 2016 21:20:54 GMT'), ('Content-Type', 'text/html')]
+Value of Date header:  Tue, 14 Jun 2016 21:20:54 GMT
+First 100 bytes of body:  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CDA3101</title>
+  <meta charset="utf-8">
+  <meta na
